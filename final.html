@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NEDA TAXI</title>
+    <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+        .pic1{
+            width: 100%;
+            height: 800px;
+            background-color: aqua;
+            background: url(img/twe.jpg) no-repeat center center;
+            background-size: cover;
+        }
+        
+         .grid-container {
+          width: 100%;
+          height:100px;
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          display: grid;
+          grid-template-columns: 15% 30% 7% 7% 7% 7% 10% 15%;
+         
+             }
+
+        .grid-item {
+            line-height: 100px;
+            font-size: 18px;
+            text-align: center;
+            color: white;
+            font-weight:600
+            
+              }
+        #logo{
+            width: 100%;
+            height:100%;
+            background: url(img/logomain.jpg) no-repeat center center; 
+            background-size: auto;
+            margin-left: 35px;
+            margin-top: 20px;
+        }
+        
+        .book{
+            width:150px;
+            height: 50px;
+            background-color: yellow;
+            border-radius: 15px;
+            margin-top: 25px;
+            color: black;
+            line-height: 50px;
+           
+        }
+        
+       #home{
+            color: yellow;
+        }
+        
+        .h11{
+            color: yellow;
+            font-size: 60px;
+            font-weight: 600;
+            font-family: sans-serif;
+            position: relative;
+            top: 200px;
+            left: 410px;
+            
+        }
+         .h12{
+            color: white;
+            font-size: 60px;
+            font-weight: 600;
+            font-family: sans-serif;
+            position: relative;
+            top: 200px;
+            left: 420px;
+        }
+        .p1{
+            width: 70%;
+            height: 50px;
+            color: white;
+            font-size: 30px;
+            font-weight: 400;
+            font-family: sans-serif;
+            position: absolute;
+            top: 280px;
+            left: 200px;
+            text-align: center;
+        }
+        
+        .form{
+        width: 80%;
+            height:550px;
+            background-color: white;
+            border-radius: 5%;
+            position: relative;
+            left:10%;
+            top: 300px;
+            box-shadow: 3px 3px 3px 3px rgba(128, 128, 128, 0.34);
+        }
+        
+           .picform{
+            width: 35%;
+            height:100%;
+            position: relative;
+            left:0;
+            top: 0;
+            border-top-left-radius: 5%;
+            border-bottom-left-radius: 5%;
+               background: url(img/three.jpg)no-repeat center center;
+               background-size: cover;
+        }
+        
+        .shadepicform{
+            width: 100%;
+            height:100%;
+            background-color: rgba(255, 255, 0, 0.65);
+            position: relative;
+            left:0;
+            top: 0;
+            border-top-left-radius: 5%;
+            border-bottom-left-radius: 5%;
+            padding-top: 200px;
+            
+        }
+        
+        .textform{
+            width: 65%;
+            height:100%;
+            position: absolute;
+            left:35%;
+            top: 0;
+            border-top-right-radius: 5%;
+            border-bottom-right-radius: 5%;
+            
+        }
+            
+                
+         .part1{
+            width:45%;
+            height: 100%;
+            position: absolute;
+            top:0;
+            left:0;
+            
+        }
+        
+         .part2{
+            width:45%;
+            height: 100%;
+            position: absolute;
+            top:0%;
+            left:45%;
+           
+        }
+        
+              
+        .u, .pform {
+            color: darkgray;
+            font-size: 15px;
+            font-weight: 100;
+            margin-left:20px;
+            font-family: sans-serif;
+                  }
+        
+            
+        .in{
+            width: 300px;
+            height: 45px;
+            background-color: white;
+            border: 2px solid gray;
+            margin-left:20px;
+            border-radius: 7px;
+        }
+        
+          .submit{
+            width: 150px;
+            height: 40px;
+            background-color: yellow;
+              border-color: yellow;
+            margin-left:15px;
+               border-radius: 7px;
+        }
+        
+        .gap1{
+            
+            width: 100%;
+            height: 50px;
+            
+        }
+         .gap2{
+            
+            width: 100%;
+            height: 15px;
+            
+        }
+        
+        .shadet1{
+            color: white;
+            font-size: 20px;
+            font-family: sans-serif;
+           text-align: center;
+            font-weight: 600;
+            
+
+        }
+        
+          .shadet2{
+            color: white;
+            font-size: 45px;
+            font-family: sans-serif;
+           font-weight: 600;
+            text-align: center;
+
+        }
+          .shadet3{
+            color: black;
+            font-size: 80px;
+            font-family: sans-serif;
+           font-weight: 600;
+           text-align: center;
+
+        }
+        
+        .cab{
+            width: 300px;
+            height: 550px;
+            position: absolute;
+            top: 1000px;
+            left: 130px;
+            border-radius: 10px;
+            border: 2px solid gray;
+            box-shadow: 3px 3px 3px 3px rgba(128, 128, 128, 0.34);
+        }
+        
+         .minibus{
+            width: 300px;
+            height: 550px;
+            position: absolute;
+            top: 1000px;
+            left: 510px;
+            border-radius: 10px;
+            border: 2px solid gray;
+             box-shadow: 3px 3px 3px 3px rgba(128, 128, 128, 0.34);
+        }
+        
+         .ex{
+            width: 300px;
+            height: 550px;
+            position: absolute;
+            top: 1000px;
+            left: 900px;
+            border-radius: 10px;
+            border: 2px solid gray;
+             box-shadow: 3px 3px 3px 3px rgba(128, 128, 128, 0.34);
+        }
+        
+              
+        .cablogo{
+            width: 150px;
+            height: 150px;
+            background-color: aqua;
+            position: absolute;
+            top: 50px;
+            left: 75px;
+            background: url(img/ex2.jpg) no-repeat center center;
+            background-size: contain;
+            
+        }
+        
+        .cabh{
+            color: black;
+            font-size: 30px;
+            font-weight: 600;
+            font-family: sans-serif;
+            position: relative;
+            top: 180px;
+            text-align: center;
+        }
+         .cabp1{
+            color: lightgray;
+            font-size: 15px;
+            font-weight: 600;
+            font-family: sans-serif;
+            position: relative;
+            top: 200px;
+            text-align: center;
+        }
+        
+            .cabp2{
+            color: black;
+            font-size: 15px;
+            font-weight: 100;
+            font-family: sans-serif;
+            position: relative;
+            top: 220px;
+            text-align: center;
+            line-height: 25px;
+        }
+          .cabp3{
+            color: black;
+            font-size: 20px;
+            font-weight: 600;
+            font-family: sans-serif;
+            position: relative;
+            top: 250px;
+            text-align: center;
+            
+        }
+         .cabp4{
+            color: yellow;
+            font-size: 40px;
+            font-weight: 600;
+            font-family: sans-serif;
+            position: relative;
+            top: 280px;
+            text-align: center;
+        }
+        
+        .ribbon{
+            width: 100%;
+            height: 300px;
+            background: linear-gradient(to bottom, #333333 0%, #999966 100%);
+            position: absolute;
+            top: 1650px
+        }
+        
+        .no1{
+            width: 300px;
+            height: 200px;
+            position: absolute;
+            top: 50px;
+            left: 130px;
+            border-radius: 10px;
+            border: 2px solid white;
+          
+        }
+        
+        .no2{
+            width: 300px;
+            height: 200px;
+            position: absolute;
+            top: 50px;
+            left: 510px;
+            border-radius: 10px;
+            border: 2px solid white;
+          
+        }
+        
+        .no3{
+            width: 300px;
+            height: 200px;
+            position: absolute;
+            top: 50px;
+            left: 900px;
+            border-radius: 10px;
+            border: 2px solid white;
+          
+        }
+        
+         .rh{
+            color: white;
+            font-size: 60px;
+            font-weight: 600;
+            font-family: sans-serif;
+            position: relative;
+            top: 60px;
+            text-align: center;
+        }
+          .rp{
+            color: white;
+            font-size: 15px;
+            font-weight: 600;
+            font-family: sans-serif;
+            position: relative;
+            top: 55px;
+            text-align: center;
+        }
+        
+        .app{
+            width: 100%;
+            height: 420px;
+            background-color: aqua;
+            background: url(img/twe.jpg) no-repeat center center;
+            background-size: cover;
+            position: absolute;
+            top: 1950px;
+        }
+        
+        .appshade{
+              width: 100%;
+            height: 420px;
+            background-color: rgba(255, 255, 0, 0.54);
+            position: absolute;
+            top: 0px;
+          }
+        
+        .apph{
+            color: black;
+            font-size: 60px;
+            font-weight: 600;
+            font-family: sans-serif;
+            position: relative;
+            top: 60px;
+            left: 100px;
+        }
+          .appp{
+            color: black;
+            font-size: 20px;
+            font-weight: 400;
+            font-family: sans-serif;
+            position: absolute;
+            top: 160px;
+            left: 100px;
+            
+        }
+        
+        .apple{
+            width: 200px;
+            height: 80px;
+            background: url(img/ap.jpg) no-repeat center center;
+            background-size: contain;
+            position: absolute;
+            top: 2220px;
+            left: 100px;
+        }
+          .play{
+            width: 200px;
+            height: 80px;
+            background: url(img/pl.jpg) no-repeat center center;
+            background-size: contain;
+            position: absolute;
+            top: 2220px;
+            left: 350px;
+            }
+        
+        .mob{
+            width: 400px;
+            height: 380px;
+            background: url(img/12.jpg) no-repeat center center;
+            background-size: cover;
+            position: absolute;
+            top: 1990px;
+            left: 800px;
+            border: 2px solid black;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+
+        }
+        
+        .article{
+            width: 100%;
+            height: 950px;
+            position: absolute;
+            top: 2370px;
+        }
+        
+        .arh{
+            color: black;
+            font-size: 60px;
+            font-weight: 600;
+            font-family: sans-serif;
+            position: relative;
+            top: 80px;
+            left: 450px;
+        }
+        
+         .arcol1{
+            width: 500px;
+            height: 550px;
+            position: absolute;
+            top: 180px;
+            left: 130px;
+            border-radius: 10px;
+            border: 2px solid gray;
+            box-shadow: 3px 3px 3px 3px rgba(128, 128, 128, 0.34);
+        }
+        
+        .arpic1{
+            width: 100%;
+            height: 333px;
+            position: absolute;
+            top: 0;
+            left: 0;
+           background: url(img/one.jpg) no-repeat center center;
+            background-size: cover;
+          
+        }
+        
+          .arcol2{
+            width: 500px;
+            height: 550px;
+            position: absolute;
+            top: 180px;
+            left: 730px;
+            border-radius: 10px;
+            border: 2px solid gray;
+            box-shadow: 3px 3px 3px 3px rgba(128, 128, 128, 0.34);
+        }
+        
+           .arpic2{
+            width: 100%;
+            height: 333px;
+            position: absolute;
+            top: 0;
+            left: 0;
+           background: url(img/three.jpg) no-repeat center center;
+            background-size: cover;
+          
+        }
+        
+        .arbot{
+            width: 220px;
+            height: 50px;
+            position: absolute;
+            top: 800px;
+            left: 580px;
+            border-radius: 10px;
+            background-color: yellow;
+            font-size: 15px;
+            font-weight: 600;
+            font-family: sans-serif;
+            text-align: center;
+            padding-top: 14px;
+            
+           }
+        
+        .arth{
+            color: black;
+            font-size: 25px;
+            font-weight: 600;
+            font-family: sans-serif;
+            position: relative;
+            top: 350px;
+           text-align: center;
+        }
+         .artp{
+            color: black;
+            font-size: 15px;
+            font-weight: 400;
+            font-family: sans-serif;
+            position: relative;
+            top: 350px;
+           text-align: center;
+        }
+        
+        .footer{
+            width: 100%;
+            height: 1100px;
+           background: url(img/twe.jpg) no-repeat center center;
+            background-size: cover;
+            position: absolute;
+            top: 3300px;
+        }
+        
+          .shadefooter{
+            width: 100%;
+            height: 1100px;
+           background-color: rgba(128, 128, 128, 0.4);
+            position: absolute;
+            top: 3300px;
+        }
+        
+          .col1{
+            width: 260px;
+            height:600px;
+            position: relative;
+            left:80px;
+            top: 50px;
+             border-radius: 5%;
+               background: url(img/three.jpg)no-repeat center center;
+               background-size: cover;
+        }
+        
+        .shadecol1{
+            width: 260px;
+            height:600px;
+            background-color: rgba(255, 255, 0, 0.65);
+            position: absolute;
+            left:0;
+            top: 0;
+            border-radius: 5%;
+            padding-top: 200px;
+            
+        }
+        .col2{
+            width: 260px;
+            height:600px;
+            position: absolute;
+            left:380px;
+            top: 50px;
+            border-radius: 5%;
+          }
+         .col3{
+            width: 260px;
+            height:600px;
+            position: absolute;
+            left:690px;
+            top: 50px;
+            border-radius: 5%;
+          }
+         .col4{
+            width: 260px;
+            height:600px;
+            position: absolute;
+            left:1000px;
+            top: 50px;
+            border-radius: 5%;
+          }
+        
+        
+        .collogo{
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            top: 25px;
+            left: 50px;
+            background: url(img/ex2.jpg) no-repeat center center;
+            background-size: contain;
+            
+        }
+        
+        .colh{
+            color: white;
+            font-size: 25px;
+            font-weight: 600;
+            font-family: sans-serif;
+            position: relative;
+            top: 160px;
+            text-align: center;
+        }
+         .colp1{
+              color: white;
+            font-size: 15px;
+            font-weight: 600;
+            font-family: sans-serif;
+            position: relative;
+            top: 190px;
+            text-align: center;
+        
+        }
+        
+            .colp2{
+              color: white;
+            font-size: 15px;
+            font-weight: 600;
+            font-family: sans-serif;
+            position: relative;
+            top: 230px;
+            text-align: center;
+                line-height: 25px;
+                padding-left: 10px;
+                padding-right: 10px;
+        }
+          .colp3{
+             color: white;
+            font-size: 20px;
+            font-weight: 600;
+            font-family: sans-serif;
+            position: relative;
+            top: 280px;
+            text-align: center;
+        }
+         .colp4{
+              color: yellow;
+            font-size: 50px;
+            font-weight: 400;
+            font-family: sans-serif;
+            position: relative;
+            top: 310px;
+            text-align: center;
+        }
+        
+        .book2{
+            width: 140px;
+            height: 50px;
+            background-color: yellow;
+            position: absolute;
+            top: 440px;
+            left: 60px;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: 600;
+          padding-top: 10px;
+         padding-left: 24px;
+            font-family: serif;
+        }
+        
+        
+        .line{
+            width: 80%;
+            height: 3px;
+            background-color: yellow;
+            position: absolute;
+            top: 780px;
+            left: 10%;
+        }
+        
+        .arm{
+             width: 100px;
+            height: 100px;
+            background-color: aqua;
+            position: absolute;
+            top: 730px;
+            left: 47%;
+            background: url(img/scab.png) no-repeat center center;
+            background-size: contain;
+            
+        }
+        
+        .flogo{
+             width: 180px;
+            height: 100px;
+            background-color: aqua;
+            position: absolute;
+            top: 915px;
+            left: 44%;
+            background: url(img/logomain.jpg) no-repeat center center;
+            background-size: contain;
+             
+        }
+        
+        .pfooter{
+              color: white;
+            font-size: 15px;
+            font-weight: 600;
+            font-family: sans-serif;
+            position: relative;
+            top: 460px;
+            text-align: center;
+            
+        }
+        
+        .link{
+            text-decoration: none;
+            color: black;
+        }
+        
+        .arth:hover{
+            color:yellow;
+        }
+        
+        
+        
+        
+        
+        
+        
+    
+    
+    
+    
+    
+    
+    </style>
+    
+</head>
+
+
+
+
+<body>
+   
+  <div class="pic1">
+  
+  <div class="grid-container">
+  <div class="grid-item" id="logo"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item" id="home">Home</div>  
+  <div class="grid-item">Pricing</div>
+  <div class="grid-item">App</div>
+  <div class="grid-item">News</div>
+  <div class="grid-item">ContactUs</div>
+  <div class="grid-item">
+      <div class="book"><a class="link" href="https://avada.theme-fusion.com/taxi/book-online/">Book Online</a></div>
+         </div>  
+         </div>
+            
+   <h class="h11">Premium</h> 
+   <h class="h12">Transport</h>
+   <div class="p1">for your Business & Personal Needs</div>
+     
+        
+          
+          <div class="form">
+           
+            <div class="picform"> 
+            <div class="shadepicform">
+             <p class="shadet1">Book online now &</p>
+             <p class="shadet2">SAVE</p>     
+             <p class="shadet3">10%</p>
+             <p class="shadet1">On Your Ride</p>   
+                
+            </div>
+            </div>
+    
+                                    
+          <div class="textform">
+          
+              <div class="part1">
+              
+                  <div class="gap1"></div>
+              
+               <label for="name" class="u">Pick Up Location</label>
+               
+               <div class="gap2"></div>
+               
+	          <input class="in" name="name" type="text" id="name" cols="40" rows="15"/>
+                
+                 <div class="gap1"></div>
+                 
+                  <label for="name" class="u">Date Required</label>
+                  
+                    <div class="gap2"></div>
+                    
+	          <input class="in" name="name" type="date" id="name" cols="40" rows="15"/>
+                
+                 <div class="gap1"></div>
+                 
+                  <label for="name" class="u">Your Name</label>
+                  
+                    <div class="gap2"></div>
+                    
+	          <input class="in" name="name" type="text" id="name" cols="40" rows="15"/>
+                
+                 <div class="gap1"></div>
+                 
+                 <p class="pform">Payment for bookings is taken in advance as per our terms and conditions</p>
+                  
+                   
+              </div>
+              
+                    
+              <div class="part2">
+                
+                 <div class="gap1"></div>
+                 
+                  <label for="name" class="u">Drop Off Location</label>
+                  
+                    <div class="gap2"></div>
+                    
+	          <input class="in" name="name" type="text" id="name" cols="40" rows="15">
+                
+                 <div class="gap1"></div>
+                 
+                  <label for="name" class="u">Number of Passengers</label>
+                  
+                    <div class="gap2"></div>
+                    
+	          <input class="in" name="name" type="text" id="name" cols="40" rows="15">
+                
+                 <div class="gap1"></div>
+                 
+                  <label for="name" class="u">Your Email Address</label>
+                  
+                    <div class="gap2"></div>
+                    
+                    
+	          <input class="in" name="name" type="text" id="name" cols="40" rows="15">
+                
+                 <div class="gap1"></div>
+                 
+              <input type="submit" class="submit" id="submit" value="GET A QUOTE" />
+   
+              </div>  
+              </div>
+             </div>      
+             </div>
+      
+
+
+    <div class="cab">
+    <div class="cablogo"></div>
+    <div class="cabh">Standard Cab</div>
+    <div class="cabp1">1-3 PASSENGERS</div>
+    <div class="cabp2">Our standard cab service will pick you up from your desired location with up to 2 additional riders, and deliver you safely to your target destination.</div> 
+     <div class="cabp3">RIDES COST</div>
+     <div class="cabp4">$1/km</div>     
+     
+    
+    </div>
+    
+    <div class="minibus">
+    <div class="cablogo"></div>
+    <div class="cabh">Minibus</div>
+    <div class="cabp1">1-8 PASSENGERS</div>
+    <div class="cabp2">Our standard cab service will pick you up from your desired location with up to 2 additional riders, and deliver you safely to your target destination.</div> 
+     <div class="cabp3">RIDES COST</div>
+     <div class="cabp4">$2/km</div>     
+         
+    
+    </div>
+
+    <div class="ex">
+    <div class="cablogo"></div>
+    <div class="cabh">Executive</div>
+    <div class="cabp1">1-2 PASSENGERS</div>
+    <div class="cabp2">Our standard cab service will pick you up from your desired location with up to 2 additional riders, and deliver you safely to your target destination.</div> 
+     <div class="cabp3">RIDES COST</div>
+     <div class="cabp4">$5/km</div>     
+         
+    
+    </div>
+    
+    
+    <div class="ribbon">
+        
+        <div class="no1">
+            <div class="rh">30k</div>
+            <div class="rp">HAPPY CUSTOMERS</div>
+        </div>
+        <div class="no2">
+             <div class="rh">10+</div>
+            <div class="rp">YEARS EXPERIENCE</div>
+        </div>   
+        <div class="no3">
+             <div class="rh">28</div>
+            <div class="rp">CAB DRIVERS</div>
+        </div>   
+   
+    </div>
+    
+    
+    <div class="app">
+        <div class="appshade"></div>
+        
+        <h class="apph">Get the app</h>
+        <p class="appp">You can now download our app on Android and iOS. Never<br>be stranded with Avada Taxi, book your cab from wherever<br>you are, for as many of you as there are.</p>
+    </div>
+    
+    <a class="apple" href="https://themeforest.net/item/avada-responsive-multipurpose-theme/2833226?irgwc=1&clickid=15BRfwXRBxyLW5cXi-wNnX%3AYUkBywlR%3AG0YxVM0&iradid=275988&irpid=1292887&iradtype=ONLINE_TRACKING_LINK&irmptype=mediapartner&mp_value1=&utm_campaign=af_impact_radius_1292887&utm_medium=affiliate&utm_source=impact_radius"></a>
+     <a class="play" href="https://themeforest.net/item/avada-responsive-multipurpose-theme/2833226?irgwc=1&clickid=15BRfwXRBxyLW5cXi-wNnX%3AYUkBywlR-G0YxVM0&iradid=275988&irpid=1292887&iradtype=ONLINE_TRACKING_LINK&irmptype=mediapartner&mp_value1=&utm_campaign=af_impact_radius_1292887&utm_medium=affiliate&utm_source=impact_radius"></a>
+      <div class="mob"></div>
+      
+      
+      <div class="article">
+          
+          <h class="arh">Recent Articles
+</h>
+          <div class="arcol1">
+              <div class="arpic1">
+               <div class="arth">Welcome to Avada Taxi</div>
+               <div class="artp">By admin|January 16th, 2020|Announcements, General</div>
+               <br>
+               <div class="artp">Ride-Sharing Tips For the Savy Traveler Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed justo ultrices, dignissim dui at, laoreet dui. Quisque ut felis et neque dignissim ultricies vitae quis tellus. Nullam mattis cursus ornare. Nulla nec</div>   
+                  
+              </div>
+          </div>
+          
+          <div class="arcol2">
+               <div class="arpic2"></div>
+               <div class="arth">The Benefits of Prebooking</div>
+               <div class="artp">By admin|January 16th, 2020|Etiquette, General, Services</div>
+               <br>
+               <div class="artp">Save Time & Guarantee Your Ride Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed justo ultrices, dignissim dui at, laoreet dui. Quisque ut felis et neque dignissim ultricies vitae quis tellus. Nullam mattis cursus ornare. Nulla nec molestie</div>
+          </div>
+          
+          
+          <div class="arbot">Read more on our blog</div>
+          
+      </div>
+      
+      <div class="footer"></div>
+      <div class="shadefooter">
+          
+      <div class="col1">
+         <div class="shadecol1">
+          <p class="shadet1">Book online now &</p>
+             <p class="shadet2">SAVE</p>     
+             <p class="shadet3">10%</p>
+             <p class="shadet1">On Your Ride</p> 
+             <div class="book2">Book Now</div>   
+             
+         </div>
+        </div>
+        
+          <div class="col2">
+              <div class="collogo"></div>
+    <div class="colh">Standard Cab</div>
+    <div class="colp1">1-3 PASSENGERS</div>
+    <div class="colp2">Our standard cab service will pick you up from your desired location with up to 2 additional riders, and deliver you safely to your target destination.</div> 
+     <div class="colp3">RIDES COST</div>
+     <div class="colp4">$1/km</div>  
+          </div> 
+          
+          
+         <div class="col3">
+         <div class="collogo"></div>
+    <div class="colh">Minibus</div>
+    <div class="colp1">1-8 PASSENGERS</div>
+    <div class="colp2">Our standard cab service will pick you up from your desired location with up to 2 additional riders, and deliver you safely to your target destination.</div> 
+     <div class="colp3">RIDES COST</div>
+     <div class="colp4">$2/km</div>    
+             
+         </div>  
+
+          <div class="col4">
+           <div class="collogo"></div>
+    <div class="colh">Executive</div>
+    <div class="colp1">1-2 PASSENGERS</div>
+    <div class="colp2">Our standard cab service will pick you up from your desired location with up to 2 additional riders, and deliver you safely to your target destination.</div> 
+     <div class="colp3">RIDES COST</div>
+     <div class="colp4">$5/km</div>    
+          </div>  
+          
+          
+          <div class="line"></div>
+          <div class="arm"></div>
+          <div class="flogo"></div>
+          <p class="pfooter">© Copyright 2012 - 2021 | Avada Theme by ThemeFusion | All Rights Reserved | Powered by WordPress</p>
+
+         
+         
+         
+          
+          
+          
+          
+          
+          
+          
+          
+      
+      </div>
+
+      
+
+ 
+   
+   
+   
+    
+</body>
+</html>
+
+
